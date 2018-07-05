@@ -75,7 +75,7 @@ public class EspetaculoTest {
 	}
 	
 	@Test
-	private void test() {
+	public void test() {
 		Assert.fail();
 
 	}

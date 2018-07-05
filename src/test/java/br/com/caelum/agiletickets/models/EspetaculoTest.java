@@ -3,6 +3,7 @@ package br.com.caelum.agiletickets.models;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 public class EspetaculoTest {
@@ -72,6 +73,14 @@ public class EspetaculoTest {
 
 		assertFalse(ivete.Vagas(5, 3));
 	}
+	
+	@Test
+	private void test() {
+		Assert.fail();
+
+	}
+	
+	
 
 	private Sessao sessaoComIngressosSobrando(int quantidade) {
 		Sessao sessao = new Sessao();

@@ -126,8 +126,7 @@ public class Espetaculo {
            totDisp += s.getIngressosDisponiveis();
        }
 
-       if (totDisp >= qtd) return true;
-       else return false;
+       return (totDisp >= qtd);
    }
 
 }
